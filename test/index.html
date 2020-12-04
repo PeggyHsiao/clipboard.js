@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="copy" value="這是放要被複製的文字">
+    <button data-clipboard-target="#copy" id="btn">點我複製</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+    <script>
+        const clipboard = new Clipboard("#btn");
+
+        clipboard.on('success', function (e) {
+            e.clearSelection();
+        });
+
+        clipboard.on('success', function (e) {
+            e.clearSelection();
+        });
+    </script>
+</body>
+
+</html>
