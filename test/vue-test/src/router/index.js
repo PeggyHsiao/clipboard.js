@@ -1,14 +1,14 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import ClipboardDemo from '@/components/ClipboardDemo';
+import Clipboard from '@/components/Clipboard';
 
 Vue.use(Router)
 
 const routes = [
     {
-        path: '/ClipboardDemo',
-        name: 'clipboarddemo',
-        component: ClipboardDemo
+        path: '/clipboard',
+        name: 'clipboard',
+        component: Clipboard
     },
 ];
 

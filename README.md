@@ -140,3 +140,5 @@ export default {
 };
 </script>
 ```
+> debug模式可以正常操作，build無法。
+https://hackmd.io/@7BtvZC9iRoOYNGb3xoklzA/S1B_cTKhv
